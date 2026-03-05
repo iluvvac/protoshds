@@ -58,12 +58,12 @@ export function Header({ activeRole, setActiveRole }: HeaderProps) {
               {/* <ChevronDown className="w-3 h-3 ml-auto" /> */}
             </SelectTrigger>
             <SelectContent className="bg-popover border-[var(--nav-border)]">
-              {/* <SelectItem value="operator" className="text-xs">
+              <SelectItem value="operator" className="text-xs">
                 <div className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary" />
                   Operator (L1)
                 </div>
-              </SelectItem> */}
+              </SelectItem>
               <SelectItem value="manager" className="text-xs">
                 <div className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-[var(--warning)]" />

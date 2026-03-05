@@ -11,7 +11,7 @@ import { DirectoryView } from '@/components/hsse/directory-view'
 import { INITIAL_TICKETS } from '@/lib/hsse-data'
 import type { IncidentTicket } from '@/lib/hsse-data'
 
-type ActiveRole = 'manager' | 'operator'
+type ActiveRole = 'operator' | 'manager'
 type ActiveTab = 'map' | 'triage' | 'ai-insights' | 'directory'
 
 export default function HSSEDashboard() {
